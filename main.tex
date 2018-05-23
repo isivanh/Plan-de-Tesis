@@ -1,0 +1,46 @@
+\documentclass[a4paper, 11pt, oneside]{article}
+\usepackage[margin = 0.75in]{geometry}
+\geometry{bindingoffset = 2cm}
+
+%\newcommand{\plogo}{\fbox{$\mathcal{UNSA}$}} % Generic dummy publisher logo
+
+\usepackage[utf8]{inputenc} % Required for inputting international characters
+\usepackage[T1]{fontenc} % Output font encoding for international characters
+%\usepackage{fouriernc} % Use the New Century Schoolbook font
+
+%Table
+\usepackage{multirow} 
+\newcommand{\tabitem}{~~\llap{\textbullet}~~}
+\usepackage{tabularx}
+\usepackage{enumitem}
+
+
+\usepackage{float}
+
+%color
+\usepackage[table]{xcolor}
+
+\bibliographystyle{IEEEtran}
+\begin{document}
+
+
+
+\title{Gamificación como Metodología para la Enseñanza de Productos Notables Usando Realidad Aumentada}
+\author{Hancco Medina Wilder Ivan\\ \\Escuela Profesional de Ingeniería de Sistemas\\Universidad Nacional de San Agustín }
+
+\date{May 2018}
+
+
+
+\maketitle
+
+\renewcommand{\contentsname}{Índice}
+%\maxtocdepth{subsection}
+\tableofcontents
+\addtocontents{toc}{\par\nobreak \mbox{}\hfill{\bf Page}\par\nobreak}
+%\clearemptydoublepage
+
+
+ \input{Capitulos.tex}
+
+\end{document}
